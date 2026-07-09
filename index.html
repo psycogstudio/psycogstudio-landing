@@ -3,56 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Shop Links</title>
+  <title>Psycog Studio</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
-      color: #333;
-      text-align: center;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: #fff;
+      color: #111;
       margin: 0;
       padding: 0;
+      text-align: center;
     }
-    .container {
-      max-width: 500px;
-      margin: 50px auto;
-      padding: 20px;
-    }
-    .profile-img {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      margin-bottom: 20px;
+    header {
+      padding: 60px 20px 20px;
     }
     h1 {
+      font-size: 2.5rem;
+      letter-spacing: 2px;
       margin-bottom: 10px;
+    }
+    p.tagline {
+      font-size: 1.2rem;
+      color: #555;
+      margin-bottom: 40px;
+    }
+    .links {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
     }
     .link {
       display: block;
-      background: #fff;
-      border: 1px solid #ddd;
+      border: 1px solid #111;
       padding: 15px;
-      margin: 10px 0;
-      border-radius: 8px;
+      margin: 15px 0;
       text-decoration: none;
-      color: #333;
+      color: #111;
       font-weight: bold;
-      transition: background 0.2s;
+      text-transform: uppercase;
+      transition: background 0.2s, color 0.2s;
     }
     .link:hover {
-      background: #f0f0f0;
+      background: #111;
+      color: #fff;
+    }
+    footer {
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #777;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <img src="your-logo.png" alt="Shop Logo" class="profile-img">
-    <h1>My Shop</h1>
-    <p>Find all my links below:</p>
-    <a href="https://yourshop.com" class="link">🛒 Online Store</a>
-    <a href="https://instagram.com/yourshop" class="link">📸 Instagram</a>
-    <a href="https://tiktok.com/@yourshop" class="link">🎥 TikTok</a>
-    <a href="mailto:youremail@example.com" class="link">✉️ Contact Me</a>
+  <header>
+    <h1>Psycog Studio</h1>
+    <p class="tagline">Bike Service • Coffee • Merchandise</p>
+  </header>
+
+  <div class="links">
+    <a href="https://instagram.com/psycogstudio" class="link">Instagram</a>
+    <a href="https://wa.me/6285190845813" class="link">WhatsApp</a>
+    <a href="https://www.shopee.co.id" class="link">Online Store</a>
+    <a href="mailto:psycogstudio@gmail.com" class="link">Email</a>
   </div>
+
+  <footer>
+    © 2026 Psycog Studio — Good Rides, Good Coffee
+  </footer>
 </body>
 </html>
